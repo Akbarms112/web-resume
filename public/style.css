@@ -18,7 +18,7 @@ body{
     height: 100vh;
     
     background-size: cover;
-    background-image: url(/web-dev-tasl/asserts/WhatsApp_Image_2023-07-11_at_7.15.29_PM-removebg-preview.png);
+    background-image: url(WhatsApp_Image_2023-07-11_at_7.15.29_PM-removebg-preview.png);
     background-position: center;
 }
 .container{
@@ -338,7 +338,7 @@ nav .fas{
 }
 @media only screen and(max-width:600px){
     #header{
-        background-image:url(/web-dev-tasl/asserts/me-removebg-preview.png);
+        background-image:url(me-removebg-preview.png);
     }
     .header-text{
         margin-top: 100%;

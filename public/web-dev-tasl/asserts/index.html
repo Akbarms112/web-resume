@@ -15,7 +15,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="logo.jpg" class="logo" height="120px" width="140px">
+                <img src="/web-dev-tasl/asserts/logo.jpg" class="logo" height="120px" width="140px">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -28,7 +28,7 @@
             </nav>
             <div class="header-text">
                 <p>Engineering Student</p>
-                <h1>Hi,I'm <span>Akbar</span> <br>From Indian</h1>
+                <h1>Hi,I'm <span>Akbar</span> <br>From India</h1>
             </div>
         </div>
     </div>
@@ -39,16 +39,16 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="ya-removebg-preview.png" alt="">
+                    <img src="/web-dev-tasl/asserts/ya-removebg-preview.png" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">
                         About Me
                     </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, velit architecto
-                        magnam voluptate temporibus praesentium ullam, porro, optio beatae atque enim laboriosam et?
-                        Nobis enim quod tempore explicabo veniam! Enim?</p>
-
+                    <p>Hi!.I'm Akbar<br>
+                    I am currently pursuing my second year bachelor of Technology in Information Technology.I had more Interstered in coding and computer stuffs so i took maths computer in higher studies
+                    Besides campus studies,I also Interstered in the Web Development,this made me as a web Developer. iam hardworking and determined person.This leads me to lrarn more about computer stuffs.Now in 
+                addition to i am learning Node js,Mango dp to become a backend Developer.That's my bio...</p>
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -97,40 +97,167 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum nam maxime a. Numquam velit vel magnam cum officiis ex,
-                        voluptatem, adipisci voluptas sapiente temporibus est,
-                        architecto ad ipsam ducimus tempora?</p>
+                    <p>And i m a passinating web designer.And im currently working(learning) Backend Development <br>
+
+                         </p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-i-cursor"></i>
                     <h2>Photo and Video Editing</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum nam maxime a. Numquam velit vel magnam cum officiis ex,
-                        voluptatem, adipisci voluptas sapiente temporibus est,
-                        architecto ad ipsam ducimus tempora?</p>
+                    <p>And also i m good in photo and video Editing.i worked photo shop in 2 years and i learn lot of knowlege about photo and video Editing</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-crop"></i>
                     <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nostrum nam maxime a. Numquam velit vel magnam cum officiis ex,
-                        voluptatem, adipisci voluptas sapiente temporibus est,
-                        architecto ad ipsam ducimus tempora?</p>
+                    <p></p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Skills</h1>
+            <div class="work-list">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>My SQL</li>
+                    <li>GITHUB</li>
+
+                </ul>
+            </div>
+        </div>
+    </div> -->
+   
+<h1 style="text-align: center; font-size: 20px;">HTML</h1>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="55" class="slider" id="myuange">
+  <p>Value: <span id="demo4"></span></p>
+</div>
+
+<script>
+    var slider = document.getElementById("myuange");
+    var output = document.getElementById("demo4");
+    output.innerHTML = slider.value;
+    
+      slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+<h1 style="text-align: center; font-size: 20px;">GITHUB</h1>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="mydange">
+  <p>Value: <span id="demo5"></span></p>
+</div>
+
+<script>
+    var slider = document.getElementById("mydange");
+    var output = document.getElementById("demo5");
+    output.innerHTML = slider.value;
+    
+      slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+
+<h1 style="text-align: center; font-size: 20px;">MY SQL</h1>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="60" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div>
+
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+
+<h1 style="text-align: center; font-size: 20px;">CSS</h1>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myeange">
+  <p>Value: <span id="demo1"></span></p>
+</div>
+<script>
+    var slider = document.getElementById("myeange");
+    var output = document.getElementById("demo1");
+    output.innerHTML = slider.value;
+    
+      slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+
+
+    
+<h1 style="text-align: center; font-size: 20px;">JavaScript</h1>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="40" class="slider" id="myrange">
+  <p>Value: <span id="demo2"></span></p>
+</div>
+<script>
+var slider = document.getElementById("myrange");
+var output = document.getElementById("demo2");
+output.innerHTML = slider.value;
+
+  slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+
+
+
+
+    
+<h1 style="text-align: center; font-size: 20px;">PHP</h1>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="mymange">
+  <p>Value: <span id="demo3"></span></p>
+</div>
+
+<script>
+    var slider = document.getElementById("mymange");
+    var output = document.getElementById("demo3");
+    output.innerHTML = slider.value;
+    
+      slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+
+
+    
+
+
+
+
+
     <!---------------portfolio---------->
-    <div id="portfolio">
+    <!---<div id="portfolio">
         <div class="container">
             <h1 class="sub-title"> My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="work-1.png">
+                    <img src="/web-dev-tasl/asserts/work-1.png">
                     <div class="layer">
                         <h3>Social Media app</h3>
                         <p>The app connects you to the talented people around the world download it from play store </p>
@@ -138,7 +265,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="work-2.png">
+                    <img src="/web-dev-tasl/asserts/work-2.png">
                     <div class="layer">
                         <h3>Music App</h3>
                         <p>The app connects you to the talented people around the world download it from play store </p>
@@ -146,7 +273,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="work-3.png">
+                    <img src="/web-dev-tasl/asserts/work-3.png">
                     <div class="layer">
                         <h3>Online Shopping App </h3>
                         <p>The app connects you to the talented people around the world download it from play store </p>
@@ -156,7 +283,7 @@
             </div>
             <a href="#" class="btn">See more</a>
         </div>
-    </div>
+    </div>-->
     <!-----------contact----->
     <div id="contact">
         <div class="container">
@@ -171,7 +298,7 @@
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="AKBAR ALI.docx" download class="btn btn2">Download CV</a>
+                    <a href="/web-dev-tasl/asserts/AKBAR ALI.docx" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
